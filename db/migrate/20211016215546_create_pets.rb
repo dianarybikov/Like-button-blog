@@ -5,7 +5,7 @@ class CreatePets < ActiveRecord::Migration[6.1]
       t.string :img
       t.string :quote
       t.string :age
-      t.string :likes
+      t.integer :likes
 
       t.timestamps
     end
